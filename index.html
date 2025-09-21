@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+</head> 
+<title>神金大网页</title>
+<style type="text/css">
+  body {background-image:url('https://pic1.imgdb.cn/item/67a88bcad0e0a243d4fd7a4e.jpg');}
+  div.card{
+      width: 90%;
+      height: 80%;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      margin: 20px auto;
+      color: white;
+      border: 3px solid rgb(255, 255, 255);
+      -webkit-animation:fadeinup 1.8s;
+      animation: fadeinup 1.8s;
+  }
+  div.link_card {
+      height: 80%;
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      margin: 20px auto;
+      color: white;
+    }
+    div:hover.link_card{
+      background-color: rgba(255, 255, 255, 0.6);
+      color: black;
+      user-select: none;
+    }
+    div.filter_blur {
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    }
+    @keyframes fadeinup {
+      from {
+        transform: translatey(-800%);
+        width: 0;
+          }
+      to {
+        transform: translatey(0);
+        width: 90%;
+      }
+    }
+</style>
+<body>
+  <div class="card">
+    <h1>Test</h1>
+    <p>一篇测试文章</p>
+    <div class="filter_blur">
+      <img src="https://pic1.imgdb.cn/item/67a88bcad0e0a243d4fd7a4e.jpg" alt="图片加载失败" style="width:100%;height:auto;">
+    </div>
+  </div>
+</body>
